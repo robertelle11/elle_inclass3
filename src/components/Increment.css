@@ -1,0 +1,33 @@
+.counter {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  text-align: center;
+  row-gap: 20px;
+}
+
+.count {
+  font-size: 200%;
+  position: relative;
+  top: 10vh;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+.buttn {
+  font-size: 160%;
+  position: relative;
+  padding: 10px 20px;
+  margin: 10px;
+  top: 20vh;
+  margin-right: 5px;
+  border-color: blue;
+  border-radius: 10%;
+}
